@@ -1,0 +1,9 @@
+.btnal {
+  transition: transform 0.3s ease;
+}
+.btnal:hover {
+  color: white;
+  background: #000;
+  transform: translateX(20px);
+}
+

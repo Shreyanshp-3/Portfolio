@@ -1,0 +1,29 @@
+/* App.css */
+.pp1 {
+  transition: filter 0.3s ease-in-out;
+  filter: grayscale(100%) contrast(1) brightness(1);
+}
+
+.pp1:hover {
+  /* filter: grayscale(100%) contrast(1.5) brightness(1.2); */
+  filter: none;
+}
+
+.spans {
+  display: block;
+}
+
+/* changing the slide */
+/* .activeSlide {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.inactiveSlide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+} */
+.btnall:hover{
+background: white !important;
+color: black;
+}
