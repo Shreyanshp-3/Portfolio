@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import LoaderAboutMe from '../Loader/LoaderAboutme';
+import { Grid, Hide, GridItem, Box, Flex, Heading, Image, Text, VStack, HStack, SimpleGrid, Badge } from "@chakra-ui/react";
 import Footer from '../Footer/Footer';
 import a1 from './setup.webp'
 import a2 from './pcpc.jpg'
@@ -13,7 +14,6 @@ import p4 from './4.jpg'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-import { Grid, Hide, GridItem, Box, Flex, Heading, Image, Text, VStack, HStack, SimpleGrid, Badge } from "@chakra-ui/react";
 const AboutMe = () => {
   const cardsData = [
     {
