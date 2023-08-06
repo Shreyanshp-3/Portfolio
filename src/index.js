@@ -3,15 +3,18 @@ import ReactDOM from 'react-dom/client';
 import { ChakraProvider } from '@chakra-ui/react'
 import './fonts.css'; // Import the custom fonts CSS file
 import App from './App';
+import { BrowserRouter } from 'react-router-dom'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <ChakraProvider>
+    <BrowserRouter>
 
-
-    <React.StrictMode>
       <App />
-    </React.StrictMode>
+    </BrowserRouter>
+
   </ChakraProvider>
 );
 

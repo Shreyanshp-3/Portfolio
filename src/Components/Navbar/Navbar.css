@@ -1,0 +1,8 @@
+.btnnav {
+  transition: transform 0.3s ease;
+}
+.btnnav:hover {
+  color: black;
+  background-color: white;
+  transform: translateY(20px);
+}

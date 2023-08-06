@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import {
-    Box,
+
     Flex,
     Button,
     Text,
@@ -12,12 +12,14 @@ import {
     IconButton,
     useDisclosure,
     SlideFade,
-    Fade,
-    Center,
+
+
+
 } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     useEffect(() => {
@@ -37,7 +39,7 @@ const Navbar = () => {
             >
                 <Text fontSize="xl" fontWeight="bold" fontFamily='Roboto Mono'
                 >
-                    sp
+                                        <NavLink className="nav-link" to="/">sp</NavLink>
                 </Text>
                 <Text fontSize="xl" fontWeight="bold" fontFamily='Roboto Mono'
                 >
@@ -73,19 +75,23 @@ const Navbar = () => {
 
                                     <Button data-aos="fade-down-right" data-aos-duration="1500"
                                         variant="ghost" color="gray.700" size="lg" w="full" mt="2" mr="2">
-                                        Link 1
+                                        <NavLink className="nav-link" to="/">Home</NavLink>
+
                                     </Button>
                                     <Button data-aos="fade-down-right" data-aos-duration="1500"
                                         variant="ghost" color="gray.700" size="lg" w="full" mt="2" mr="2">
-                                        Link 2
+                                        <NavLink className="nav-link" to="/work">Work</NavLink>
+
                                     </Button>
                                     <Button data-aos="fade-down-right" data-aos-duration="1500"
                                         variant="ghost" color="gray.700" size="lg" w="full" mt="2" mr="2">
-                                        Link 3
+                                        <NavLink className="nav-link" to="/about">About</NavLink>
+
                                     </Button>
                                     <Button data-aos="fade-down-right" data-aos-duration="1500"
                                         variant="ghost" color="gray.700" size="lg" w="full" mt="2" mr="2">
-                                        Link 4
+                                        <NavLink className="nav-link" to="/contact">Contact</NavLink>
+
                                     </Button>
 
 
@@ -117,12 +123,12 @@ const Navbar = () => {
                                                 data-aos-easing="ease-in-sine"
 
                                             >
-                                                Use my contacts beloyou need to put a project on the move, let’s work on it!
+                                                Use my contacts below you need to put a project on the move, let’s work on it!
                                                 <br />
                                                 <br />
                                                 <Button data-aos="fade-up" data-aos-duration="1500"
                                                     colorScheme='gray.500' variant='outline' size='md'>
-                                                    Contact Me!
+                                                    <NavLink className="nav-link" to="/contact">Contact</NavLink>
                                                 </Button>
                                             </Text>
 
@@ -143,7 +149,7 @@ const Navbar = () => {
             </SlideFade >
 
 
-   
+
         </>
     );
 };

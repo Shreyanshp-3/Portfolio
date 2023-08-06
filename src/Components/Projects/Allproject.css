@@ -1,0 +1,11 @@
+.pp1 {
+  transition: filter 0.3s ease-in-out;
+  filter: grayscale(100%) contrast(1) brightness(1);
+}
+
+.pp1:hover {
+  /* filter: grayscale(100%) contrast(1.5) brightness(1.2); */
+  filter: none;
+}
+
+

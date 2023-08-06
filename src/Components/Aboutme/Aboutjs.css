@@ -2,8 +2,29 @@
   transition: transform 0.3s ease;
 }
 .btnal:hover {
-  color: white;
-  background: #000;
-  transform: translateX(20px);
+  color: black;
+  background-color: #000;
+  transform: translateX(40px);
 }
 
+
+.header-img {
+  transform: rotate(270deg);
+  transition: filter 0.3s ease-in-out;
+  filter: grayscale(100%) contrast(1) brightness(1);
+}
+
+.header-img:hover {
+  /* filter: grayscale(100%) contrast(1.5) brightness(1.2); */
+  filter: none;
+}
+.ga {
+  /* transform: rotate(270deg); */
+  transition: filter 0.3s ease-in-out;
+  filter: grayscale(100%) contrast(1) brightness(1);
+}
+
+.ga:hover {
+  /* filter: grayscale(100%) contrast(1.5) brightness(1.2); */
+  filter: none;
+}

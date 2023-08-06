@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Grid,
-  GridItem,
+
   Hide,
   Center,
   IconButton,
@@ -15,9 +14,10 @@ import {
   Stack,
   Heading,
   Divider,
-  CardFooter,
-  ButtonGroup
+
 } from "@chakra-ui/react";
+import { NavLink } from "react-router-dom";
+
 // page
 import Loader from '../Loader/Loader'; // Import the Loader component
 import './HomePage.css';
@@ -32,8 +32,8 @@ import a4 from './P4.jpg'
 // the animation import
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-import About from '../Aboutme/About';
-
+import About from '../AboutMe/About';
+import Footer from '../Footer/Footer';
 
 const Homepage = () => {
 
@@ -162,18 +162,19 @@ const Homepage = () => {
 
                     <Text ml="16rem" fontSize="6xl" fontWeight="700" color="white" mb="2" textAlign={{ base: "center", md: "left" }} top="40%"
                       fontFamily='Roboto Mono'
-                      data-aos={activeSlide === index ? "fade-up" : ""} // Add data-aos attribute for fade-up animation
-                      data-aos-offset="100"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
                     >
                       {slide.title}
                     </Text>
 
-                    <Text fontFamily='Roboto Mono' fontSize="l" ml="16rem" pl="2" borderLeft="5px solid yellow" color="white" textAlign={{ base: "center", md: "left" }}>
+                    <Text fontFamily='Roboto Mono' fontSize="l" ml="16rem" pl="2" borderLeft="5px solid yellow" color="white" textAlign={{ base: "center", md: "left" }}
+                      data-aos="fade-up"
+                      data-aos-duration="1000">
                       <span className='spans'
-                        data-aos={activeSlide === index ? "fade-left" : ""} // Add data-aos attribute for fade-up animation
-                        data-aos-offset="100"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
                       >
-
                         {slide.description}
                       </span>
                     </Text>
@@ -181,8 +182,8 @@ const Homepage = () => {
                     <br />
 
                     <Text ml="16rem" fontSize="l" color="white" textAlign={{ base: "center", md: "left" }}
-                      data-aos={activeSlide === index ? "fade-up" : ""} // Add data-aos attribute for fade-up animation
-                      data-aos-offset="100"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
                     >
 
                       {slide.description1}
@@ -224,8 +225,10 @@ const Homepage = () => {
               top="100%"
               color="white"
               transform="translateY(-50%)"
-              variant='outline' size='lg'>
-              View all Projects
+              variant='outline' size='lg'
+            >
+              <NavLink className="nav-link" to="/work">            View all Projects !
+              </NavLink>
             </Button>
           </Box>
 
@@ -241,18 +244,10 @@ const Homepage = () => {
           pointer-events: none;
         }
         `}
-            {/* {`
-        .slide {
-          opacity: 0;
-          transition: opacity 0.5s ease-in-out;
-        }
-        .slide[data-aos="fade-up"] {
-          opacity: 1;
-        }
-        `} */}
+
           </style>
-        </Center >
-      </Hide>
+        </Center>
+      </Hide >
       <Hide above='lg'>
         {cards.map((card, index) => (
           <Card maxW='100vw'
@@ -304,13 +299,14 @@ const Homepage = () => {
               </Stack>
             </CardBody>
 
-            {/* <br /> */}
           </Card>
         ))}
 
       </Hide>
       {/* the about me page or just a small slide */}
-
+      {/* import the about page */}
+      <About />
+      <Footer />
     </>
 
 

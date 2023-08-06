@@ -1,0 +1,11 @@
+.socials {
+  display: block;
+  transition: letter-spacing 0.2s ease;
+}
+.socials:hover {
+  color: yellow;
+  background-color: #000;
+  letter-spacing: 8px;
+  /* transform: translateX(40px); */
+  /* transform: scaleX(1.2); */
+}
