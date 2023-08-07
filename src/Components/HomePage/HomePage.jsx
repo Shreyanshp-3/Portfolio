@@ -32,7 +32,7 @@ import a4 from './P4.jpg'
 // the animation import
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-import About from '../AboutMe/About';
+import About from '../Aboutme/About';
 import Footer from '../Footer/Footer';
 
 const Homepage = () => {
