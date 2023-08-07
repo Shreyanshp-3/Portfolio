@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar/Navbar';
 // import About from './Components/AboutMe/About';
 import AllProjects from './Components/Projects/AllProject'
 import Footer from './Components/Footer/Footer'
-import AboutMe from './Components/AboutMe/AboutMe';
+import AboutMe from './Components/Aboutme/AboutMe';
 
 import './index.css'
 const App = () => {
