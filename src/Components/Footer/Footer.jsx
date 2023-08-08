@@ -18,6 +18,7 @@ const Footer = () => {
         return <LoaderContact />;
     }
     return (
+        <div classname="container">
         <Box as="footer" bg="black" color="white" py={8}
         pl={{ base: '2rem' }}>
             <br />
@@ -101,6 +102,7 @@ const Footer = () => {
             <br />
             <br />
         </Box>
+            </div>
     );
 };
 
