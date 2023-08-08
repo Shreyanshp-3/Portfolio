@@ -9,3 +9,7 @@
   /* transform: translateX(40px); */
   /* transform: scaleX(1.2); */
 }
+.container {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
