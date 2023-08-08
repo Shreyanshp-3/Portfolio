@@ -6,7 +6,10 @@
   background-color: #000;
   transform: translateX(40px);
 }
-
+.borders {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 
 .header-img {
   transform: rotate(270deg);
