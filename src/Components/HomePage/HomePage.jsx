@@ -134,6 +134,7 @@ const Homepage = () => {
   }
   return (
     <>
+      <div classname="container"
       <Hide below='lg'>
         <Center height="100vh" bg="black">
           <Box position="relative" width="100%">
@@ -300,6 +301,7 @@ const Homepage = () => {
             </CardBody>
 
           </Card>
+      </div>
         ))}
 
       </Hide>
