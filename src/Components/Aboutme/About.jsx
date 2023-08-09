@@ -7,20 +7,20 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 const cardsData = [
     {
-        title: 'Motion Graphics.',
-        description: 'From small teasers, to explainers, to full storytelling experiences, I will help you move ideas around.',
+        title: 'Frontend.',
+        description: 'Creating Interactive Frontend pages to full story telling experiences, I will help you move ideas around',
     },
     {
         title: 'Animated Interactions.',
         description: 'UX is only complete with engaging animations. These are great for showcase or to guide a dev team.',
     },
     {
-        title: 'Webflow Development.',
-        description: 'Bringing visual design, animation and development together to uplift your digital presence.',
+        title: 'Backend Development',
+        description: 'Bringing support to the system great bankend is a need, Together we can uplift it.',
     },
     {
         title: 'Education.',
-        description: 'If you have a team ready to dive into the world of Motion Graphics, I would be delighted to help.',
+        description: 'If you have a team ready to dive into the world of Animated sites and FullStack Development, I would be delighted to help.',
     },
 ];
 const About = () => {
@@ -54,7 +54,7 @@ const About = () => {
                         data-aos-duration="800"
                     >
 
-                        Hey, there! I’m a Motion & Interaction Designer based in Viseu, Portugal. I focus on animation and Webflow development.
+                        Hey, there! I’m a Full Stack Develop & Interaction Designer based in Maharashtra, India. I focus on creating interactive frontend and backend  development.
                     </Box>
                     <br />
                     <Button
