@@ -40,7 +40,7 @@ const Footer = () => {
                     <br />
                     <Button
                         id='moveButton'
-                        as="a" href="mailto:contact@example.com"
+                        as="a" href="mailto:shreyanshpatil003@gmail.com"
                         textDecoration="none"
                         className='btnal'
                         border="2px solid crimson"
@@ -65,22 +65,22 @@ const Footer = () => {
                     <br />
                     <br />
                     <Flex flexDirection="column">
-                        <Text as="a" href="#" fontFamily='Roboto Mono'
+                        <Text as="a" href="https://www.linkedin.com/in/shreyansh-patil-660657228/" fontFamily='Roboto Mono'
                             className='socials'
                             lineHeight="7" fontFamily='Roboto Mono' isExternal color="white" textDecoration="none" mb={2}>
                             Linkedin
                         </Text>
-                        <Text as="a" href="#" fontFamily='Roboto Mono'
+                        <Text as="a" href="https://twitter.com/Shreyansh_3?t=VUqZs2qRmPQ-nERlhMvLig&s=09" fontFamily='Roboto Mono'
                             className='socials'
                             lineHeight="7" fontFamily='Roboto Mono' isExternal color="white" textDecoration="none" mb={2}>
                             Twitter
                         </Text>
-                        <Text as="a" href="#" fontFamily='Roboto Mono'
+                        <Text as="a" href="https://instagram.com/shr3yansh_?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" fontFamily='Roboto Mono'
                             className='socials'
                             lineHeight="7" fontFamily='Roboto Mono' isExternal color="white" textDecoration="none" mb={2}>
                             Instagram
                         </Text>
-                        <Text as="a" href="#" fontFamily='Roboto Mono'
+                        <Text as="a" href="https://github.com/Shreyanshp-3" fontFamily='Roboto Mono'
                             className='socials'
                             lineHeight="7" fontFamily='Roboto Mono' isExternal color="white" textDecoration="none" mb={2}>
                             Github
