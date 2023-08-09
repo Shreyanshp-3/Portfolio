@@ -17,28 +17,28 @@ import 'aos/dist/aos.css';
 const AboutMe = () => {
   const cardsData = [
     {
-      title: 'Motion Graphics.',
-      description: 'From small teasers, to explainers, to full storytelling experiences, I will help you move ideas around.',
+      title: 'Collaboration.',
+      description: 'I work with you from the very beginning to the final tweaks.',
     },
     {
-      title: 'Animated Interactions.',
-      description: 'UX is only complete with engaging animations. These are great for showcase or to guide a dev team.',
+      title: 'Organization.',
+      description: 'Planning all the steps is a key part of the design process.',
     },
     {
-      title: 'Webflow Development.',
-      description: 'Bringing visual design, animation and development together to uplift your digital presence.',
+      title: 'Humour.',
+      description: 'Work with what you love and you’ll always have a smile on your face.',
     },
     {
-      title: 'Education.',
-      description: 'If you have a team ready to dive into the world of Motion Graphics, I would be delighted to help.',
+      title: 'Precision.',
+      description: 'A project’s success can be determined by small details.',
     },
     {
-      title: 'Webflow Development.',
-      description: 'Bringing visual design, animation and development together to uplift your digital presence.',
+      title: 'Responsibility.',
+      description: 'While a design-driven vision is crucial, delivery is also a key factor.',
     },
     {
-      title: 'Education.',
-      description: 'If you have a team ready to dive into the world of Motion Graphics, I would be delighted to help.',
+      title: 'Going beyond.',
+      description: 'Sometimes, what you ask for and what you need are different things.',
     },
   ];
   // import imgad from "./pcpic.jpg"
@@ -191,7 +191,7 @@ const AboutMe = () => {
                   lineHeight="8" fontFamily='REM'
                   fontSize="1.2rem"
                 >
-                  From small teasers, to explainers, to full storytelling experiences, I will help you move ideas around. I put graphics, characters and brand environments in motion with specific communication goals in mind.
+                  From small teasers, to explainers, to full storytelling experiences, I will help you move ideas around. I put graphics, characters and brand environments in motion with perfect backend support and  communication goals in mind.
                 </Text>
 
               </Box>
@@ -205,15 +205,14 @@ const AboutMe = () => {
                 <Text fontSize="2xl" fontFamily='Roboto Mono'
                   color="crimson"
                   mb={6} data-aos="fade-up"
-                  data-aos-duration="1000">Full Stack.</Text>
+                  data-aos-duration="1000">Web UI/UX.</Text>
                 <Text
                   lineHeight="8" fontFamily='REM'
                   data-aos="fade-up"
                   data-aos-duration="1200"
                   fontSize="1.2rem"
                 >
-                  From small teasers, to explainers, to full storytelling experiences, I will help you move ideas around. I put graphics, characters and brand environments in motion with specific communication goals in mind.
-                </Text>
+Certainly! My expertise lies in providing guidance and insights related to UI/UX design principles, best practices, and trends for creating engaging and user-friendly web interfaces.                 </Text>
 
               </Box>
               <br />
@@ -226,15 +225,15 @@ const AboutMe = () => {
                   mb={6}
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                >Full Stack.</Text>
+                >
+                  Education</Text>
                 <Text
                   lineHeight="8" fontFamily='REM'
                   data-aos="fade-up"
                   data-aos-duration="1200"
                   fontSize="1.2rem"
                 >
-                  From small teasers, to explainers, to full storytelling experiences, I will help you move ideas around. I put graphics, characters and brand environments in motion with specific communication goals in mind.
-                </Text>
+Passing on knowledge is one of the things I love most in this industry. I can help you get started on your Motion Graphics adventure or, if you already have the basics checked, find the best way to develop your animation skills.                </Text>
 
               </Box>
 
@@ -247,7 +246,7 @@ const AboutMe = () => {
                   color="crimson"
                   mb={6}
                   data-aos="fade-up"
-                  data-aos-duration="1000">Full Stack.</Text>
+                  data-aos-duration="1000">Future Technology</Text>
                 <Text
                   lineHeight="8"
                   // fontSize='lg'
@@ -256,8 +255,7 @@ const AboutMe = () => {
                   data-aos-duration="1200"
                   fontSize="1.2rem"
                 >
-                  From small teasers, to explainers, to full storytelling experiences, I will help you move ideas around. I put graphics, characters and brand environments in motion with specific communication goals in mind.
-                </Text>
+I'm embarking on a journey into the fascinating realms of blockchain and Web 3.0 technologies, ready to explore new frontiers beyond the confines of Web 2.0.                </Text>
 
               </Box>
               <br />
@@ -278,9 +276,9 @@ const AboutMe = () => {
               data-aos-duration="800"
               fontFamily='Roboto Mono'
             >
-              Here’s  what I can
+              What you can also
               <br />
-              do to help:
+              except from me:
             </Heading>
             <br />
             <br />
