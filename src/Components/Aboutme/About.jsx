@@ -54,7 +54,7 @@ const About = () => {
                         data-aos-duration="800"
                     >
 
-                        Hey, there! I’m a Full Stack Develop & Interaction Designer based in Maharashtra, India. I focus on creating interactive frontend and backend  development.
+                        Hey, there! I’m a Full Stack Developer & Interaction Designer based in Maharashtra, India. I focus on creating interactive frontend and backend  development.
                     </Box>
                     <br />
                     <Button
