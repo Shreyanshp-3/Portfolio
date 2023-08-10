@@ -71,7 +71,7 @@ const Homepage = () => {
       imageUrl: a1,
       title: "Myfitness Gallery",
       description: 'Project using Rapid API',
-      description1: "User can get different types of Exercise accoring to requirnmment that can be by Target Muscele or Avaliable Equipment",
+      description1: "User can get different types of Exercise according to requirnment that can be by Target Muscle or Avaliable Equipment",
 
     },
     {
