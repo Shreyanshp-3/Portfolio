@@ -28,7 +28,7 @@ const Footer = () => {
                 >
                     <Heading as="h3" size="xl" mb={{ base: "2", lg: "2" }}
                         data-aos="fade-left"
-                        data-aos-duration="1000"                    >
+                        data-aos-duration="1000" >
                         Let's Build Something
                     </Heading>
                     <Heading color="crimson" as="h3" size="xl" mb={{ base: "4", lg: "8" }}
