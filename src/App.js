@@ -11,6 +11,7 @@ import AboutMe from './Components/Aboutme/AboutMe';
 import './index.css'
 const App = () => {
   return (
+    
     <>
 
       <Navbar />
